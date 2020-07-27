@@ -1,0 +1,43 @@
+.button {
+  width: 300px;
+  color: #ffffff;
+  letter-spacing: 0.9px;
+  font-size: 13px;
+  background: none;
+  background-image: url(../images/button-background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Core Sans E -95 Black";
+  font-size: 20px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  transition: .3s;
+
+}
+
+.button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 297px;
+  bottom: 0;
+  background-image: url(../images/button-border-bottom.png);
+  height: 50px;
+  background-size: cover;
+}
+
+.button,
+.button:active,
+.button:focus {
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter: sepia(10%);
+}
+.button:active {
+  transform: scale(.95);
+}

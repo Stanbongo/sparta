@@ -1,0 +1,46 @@
+/* Шрифты */
+@font-face {
+  font-family: "Core Sans E -25 Extra Light"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-25ExtraLight.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -35 Light"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-35Light.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -45 Regular"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-45Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -55 Medium"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-55Medium.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -65 Bold"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-65Bold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -75 Extra Bold"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-75ExtraBold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -85 Heavy"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-85Heavy.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Core Sans E -95 Black"; /* Имя шрифта */
+
+  src: url(../fonts/CoreSansE/CoreSansE-95Black.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Besom"; /* Имя шрифта */
+
+  src: url(../fonts/Besom.ttf); /* Путь к файлу со шрифтом */
+}

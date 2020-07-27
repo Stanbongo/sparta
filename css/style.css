@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Core Sans E", "Arial", sans-serif;
+}
+
+/* Основные стили страницы */
+
+.page-header {
+  min-height: 620px;
+
+  background-image: url(../images/background-image-mobile.jpg);
+  background-position: 47% -25px;
+  background-repeat: no-repeat;
+}
+.page-header__content {
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-bottom: 0;
+  padding-left: 13px;
+}
+.page-header__top-block {
+  display: inline;
+
+  color: #ffffff;
+}
+.page-header-logotype--mobile-logotype,
+.page-header-logotype {
+  float: left;
+
+  vertical-align: middle;
+}
+.page-header__phone-block {
+  display: block;
+  float: right;
+
+  font-size: 18px;
+  line-height: 58px;
+  font-family: "Core Sans E -55 Medium";
+}
+.page-header__mute-text {
+  position: relative;
+
+  display: block;
+  clear: both;
+  margin-top: 100px;
+
+  font-size: 16px;
+  font-family: "Core Sans E -45 Regular";
+  text-transform: lowercase;
+  letter-spacing: 11.2px;
+}
+.page-header__mute-text::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -13px;
+
+  display: block;
+  width: 269px;
+  height: 18px;
+
+  background-image: url(../images/mute.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+.page-header__middle-block {
+  margin-top: 13px;
+}
+.page-header__multititle-container {
+  display: block;
+  width: 291px;
+}
+.page-header__main-heading {
+  position: relative;
+
+  font-size: 93px;
+  font-family: "Besom";
+  text-align: center;
+  color: #ff0000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.60);
+  margin-bottom: 57px;
+}
+.page-header__main-heading::after {
+  content: "Любой ценой";
+  position: absolute;
+  top: 90px;
+  right: 0;
+  left: 0;
+
+  display: block;
+  margin: auto;
+
+  font-size: 35px;
+  font-family: "Core Sans E -85 Heavy";
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: none;
+}
+.page-header__about-of-duration {
+  height: 40px;
+}
+.page-header__duration-of-the-course {
+  vertical-align: middle;
+  user-select: none;
+  float: left;
+  width: 190px;
+}
+.page-header__duration-text {
+  display: block;
+  text-align: right;
+  height: 40px;
+  color: #ffffff;
+  margin-right: 13px;
+  width: 86px;
+  float: right;
+  font-size: 15px;
+}
+.page-header__bottom-block {
+  margin-top: 53px;
+}
